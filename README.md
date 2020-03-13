@@ -56,7 +56,7 @@ class CreateBirds < ActiveRecord::Migration[5.2]
 end
 ```
 
-Then run `rails db:migrate` to create the schema. We set this up first because
+Then run `rails db:migrate` to create the schema. 'We set this up first because
 we quickly move away from working directly with the database. With
 Rails, we actually want to create a model to represent and manipulate the data. Create
 the following `Bird` model in `app/models/bird.rb`:
