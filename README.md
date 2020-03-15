@@ -25,7 +25,7 @@ of files have specific jobs and interact with each other in very defined ways:
 - **Models:** The 'logic' of a web application. This is where data is
   manipulated and/or saved to a database.
 - **Views:** The 'frontend', user-facing part of a web application - this is
-  the only part of the app that the user interacts with directly. Views generally
+  the only pasrt of the app that the user interacts with directly. Views generally
   consist of HTML, CSS, and Javascript.
 - **Controllers:** The go-between for models and views. The controller relays
   data from the browser to the application, and from the application to the
